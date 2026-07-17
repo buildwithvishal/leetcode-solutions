@@ -11,32 +11,19 @@
  */
 class Solution {
 public:
-    void preOrder(TreeNode* root, vector<int>&ans){
-        if(root == NULL){
-            ans.push_back(INT_MIN);
-            return;
-        }
-        ans.push_back(root->val);
-        preOrder(root->left, ans);
-        preOrder(root->right, ans);
-    }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        vector<int> pans;
-        vector<int> qans;
-
-        preOrder(p, pans);
-        preOrder(q,qans);
-
-        if(pans.size() != qans.size()){
+        if(p==NULL && q==NULL){
+            return true;
+        }
+        
+        if(p == NULL || q == NULL){
             return false;
         }
 
-        for(int i =0; i<pans.size(); i++){
-            if(pans[i]!= qans[i]){
-                return false;
-            }
+        if(p->val != q->val){
+            return false;
         }
 
-        return true;
+        return (isSameTree(p->left, q->left) && isSameTree(p->right, q->right));
     }
 };
