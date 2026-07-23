@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
+| [0994-rotting-oranges](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0994-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0547-number-of-provinces](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0994-rotting-oranges](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
@@ -163,4 +165,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0547-number-of-provinces) |
+## Matrix
+|  |
+| ------- |
+| [0994-rotting-oranges](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0994-rotting-oranges) |
 <!---LeetCode Topics End-->
