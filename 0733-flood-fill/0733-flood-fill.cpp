@@ -1,39 +1,39 @@
 class Solution {
 public:
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+    void dfs(vector<vector<int>>& image, vector<vector<int>>& ans, int sr, int sc, int color, int initialColor) {
+
         int m = image.size();
         int n = image[0].size();
 
-        int initialcolor = image[sr][sc];
-        if(initialcolor == color){
-            return image;
-        }
-
-        queue<pair<int, int>> q;
-        vector<vector<int>> ans;
-        ans = image;
         ans[sr][sc] = color;
-        q.push({sr, sc});
 
-        int drow[] = {-1, 0, 1, 0};
-        int dcol[] = {0, 1, 0, -1};
+        int delrow[4] = {-1, 0, 1, 0};
+        int delcol[4] = {0, 1, 0, -1};
 
-        while (!q.empty()) {
-            int r = q.front().first;
-            int c = q.front().second;
-            q.pop();
+        for (int i = 0; i < 4; i++) {
+            int nrow = sr + delrow[i];
+            int ncol = sc + delcol[i];
 
-            for(int i =0; i<4; i++){
-                int nrow = r + drow[i];
-                int ncol = c + dcol[i];
+            if (nrow >= 0 && nrow < m &&
+                ncol >= 0 && ncol < n &&
+                ans[nrow][ncol] != color &&
+                image[nrow][ncol] == initialColor) {
 
-                if(nrow >= 0 && nrow < m && ncol >= 0 && ncol < n && image[nrow][ncol] != color && ans[nrow][ncol] != color && image[nrow][ncol] == initialcolor){
-                    ans[nrow][ncol] = color;
-                    q.push({nrow, ncol});
-                }
+                dfs(image, ans, nrow, ncol, color, initialColor);
             }
         }
+    }
 
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+
+        int initialColor = image[sr][sc];
+
+        if (initialColor == color)
+            return image;
+
+        vector<vector<int>> ans = image;
+
+        dfs(image, ans, sr, sc, color, initialColor);
 
         return ans;
     }
