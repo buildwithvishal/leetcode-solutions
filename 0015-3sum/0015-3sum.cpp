@@ -5,7 +5,7 @@ public:
         sort(nums.begin(), nums.end());
 
         int n = nums.size();
-        vector<vector<int>> ans;
+        vector<vector<int>> reply;
 
         for (int i = 0; i < n - 2; i++) {
 
@@ -21,7 +21,7 @@ public:
 
                 if (sum == 0) {
 
-                    ans.push_back({nums[i], nums[l], nums[r]});
+                    reply.push_back({nums[i], nums[l], nums[r]});
 
                     l++;
                     r--;
@@ -40,7 +40,6 @@ public:
                     r--;
             }
         }
-
-        return ans;
+        return reply;
     }
 };
