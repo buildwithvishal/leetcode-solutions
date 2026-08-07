@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0542-01-matrix) |
+| [0704-binary-search](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0704-binary-search](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
