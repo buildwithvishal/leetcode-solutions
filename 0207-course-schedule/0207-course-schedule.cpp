@@ -1,33 +1,42 @@
 class Solution {
-public:
-    bool dfs(int node, vector<vector<int>>& graph, vector<int>& state) {
-        if (state[node] == 1) return false; 
-        if (state[node] == 2) return true;
-
-        state[node] = 1;
-
-        for (int nei : graph[node]) {
-            if (!dfs(nei, graph, state))
-                return false;
-        }
-
-        state[node] = 2;
-        return true;
-    }
-
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> graph(numCourses);
-
-        for (auto &p : prerequisites)
-            graph[p[1]].push_back(p[0]);
-
-        vector<int> state(numCourses, 0);
-
-        for (int i = 0; i < numCourses; i++) {
-            if (!dfs(i, graph, state))
-                return false;
-        }
-
-        return true;
-    }
+	public:	
+	bool dfsCheck(vector<vector<int>> &graph, vector<int> &vis, vector<int> &pathVis,
+	int node) {
+		vis[node] = 1;
+		pathVis[node] = 1;
+		
+		for (auto it : graph[node]) {
+			if (!vis[it]) {
+				if (dfsCheck(graph, vis, pathVis, it))
+					return true;
+			}
+			else if (pathVis[it]) {
+				return true;
+			}
+		}
+		pathVis[node] = 0;
+		return false;
+	}
+	
+	bool canFinish(int numCourses, vector<vector<int>> &prerequisites) {
+        int V = numCourses;
+		vector<int> vis(V, 0);
+		vector<int> pathVis(V, 0);
+		vector<vector<int>> graph(V);
+		for (auto x: prerequisites) {
+			int u = x[0];
+			int v = x[1];
+			
+			graph[v].push_back(u);
+		}
+		
+		for (int i = 0; i<V; i++) {
+			if (vis[i] == 0) {
+				if (dfsCheck(graph, vis, pathVis, i))
+					return false;
+			}
+		}
+		
+		return true;
+	}
 };
