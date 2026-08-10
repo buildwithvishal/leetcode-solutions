@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0029-divide-two-integers) |
+| [0070-climbing-stairs](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0231-power-of-two) |
 | [1903-largest-odd-number-in-string](https://github.com/buildwithvishal/leetcode-solutions/tree/master/1903-largest-odd-number-in-string) |
 ## Greedy
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0042-trapping-rain-water) |
+| [0070-climbing-stairs](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0542-01-matrix](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0542-01-matrix) |
 ## Tree
@@ -239,4 +241,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0207-course-schedule) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
