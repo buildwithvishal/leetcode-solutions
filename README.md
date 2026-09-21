@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0542-01-matrix) |
 | [0704-binary-search](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0733-flood-fill) |
+| [0904-fruit-into-baskets](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0994-rotting-oranges](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1020-number-of-enclaves](https://github.com/buildwithvishal/leetcode-solutions/tree/master/1020-number-of-enclaves) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0496-next-greater-element-i) |
+| [0904-fruit-into-baskets](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
 |  |
@@ -233,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0904-fruit-into-baskets](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/buildwithvishal/leetcode-solutions/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Binary Search
