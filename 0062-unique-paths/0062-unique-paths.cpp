@@ -12,17 +12,18 @@ public:
                     continue;
                 }
 
-                int paths = 0;
+                int up = 0;
+                int left = 0;
 
                 if(i>0){
-                    paths+= dp[i-1][j];
+                    up+= dp[i-1][j];
                 }
 
                 if(j>0){
-                    paths+= dp[i][j-1];
+                    left+= dp[i][j-1];
                 }
 
-                dp[i][j] = paths;
+                dp[i][j] = up+left;
             }
             
         }
