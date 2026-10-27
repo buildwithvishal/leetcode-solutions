@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0063-unique-paths-ii) |
+| [0078-subsets](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0130-surrounded-regions](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0198-house-robber](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0198-house-robber) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0231-power-of-two) |
 ## Recursion
 |  |
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/buildwithvishal/leetcode-solutions/tree/master/0078-subsets) |
 ## Bracket Sequences
 |  |
 | ------- |
